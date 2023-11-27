@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA DEMO BOT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <span class="fs-4">GOA Demo Chatbot</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active bg-success" aria-current="page">Home</a></li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li> -->
+            <!-- <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
+          </ul>
+        </header>
+      </div>
+      <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold text-white">🤖 Meet Our Intelligent Assistant</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-4">We're excited to introduce you to our AI chatbot, a cutting-edge creation designed to enhance your experience on our website. This intelligent assistant is fueled by custom data, ensuring personalized and insightful interactions.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-success btn-lg px-4 me-sm-3 fw-bold">Learn More</button>
+              <!-- <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="container ">
+        <h3>🌐 What Our Chatbot Can Do</h3>
+        <ul>
+            <li>Answer Your Queries: Whether you have questions about our products, services, or anything else, our chatbot is here to help.</li>
+            <li> Provide Assistance: Need guidance or support? The chatbot is equipped to assist you efficiently and promptly.</li>
+        </ul>
+      </div>
+       <br><br>
+      <div class="container text-primary-emphasis bg-success-subtle border border-success-subtle rounded-3">
+        <h3>📈 Explore the Future with AI</h3>
+
+        <p>As technology evolves, so do we. Join us on this journey into the future of intelligent interactions. Engage with our AI chatbot and experience the power of customized, AI-driven assistance.</p>
+
+<p>Have a conversation with our chatbot now and witness the seamless blend of technology and personalized service!</p>
+      </div>
+      
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '64fde91975914d0007de3b00' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+</body>
+</html>
